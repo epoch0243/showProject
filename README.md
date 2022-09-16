@@ -49,9 +49,9 @@
 &emsp;&emsp;검사 할 목적으로(Before, After, Around) <br>
 &emsp;&emsp;적용하려고 하였으나 <br><br>
 
-&emsp;&emsp;검증하는것을 sql문을 수행하는 <br>
-&emsp;&emsp;@Repository(Data Access Obejct)에서 처리하도록 하면 <br>
-&emsp;&emsp;세션을 검사시키는 일을 안해도 되어서 <br>
+&emsp;&emsp;sql문을 수행하는 @Repository(Data Access Obejct)에서<br>
+&emsp;&emsp;처리하도록 하면 <br>
+&emsp;&emsp;세션을 따로 검사시키는 일을 안해도 되어서 <br>
 &emsp;&emsp;만들지 않았고 <br><br>
 
 &emsp;&emsp;JDBCTemplate는 인터넷에서 검색해도 <br>
