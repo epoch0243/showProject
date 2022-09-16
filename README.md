@@ -1,13 +1,13 @@
 "# showProject" 
 
 ### 기술 스택 
-1. java
-   - jsp
-   - Spring Framework
-      - Maven 
-      - hibernate (다른 분들이 만드신 쉬워보이는 자료들만 이용하였습니다.)
-2. javascript
-3. mySQL
+1.  java
+    - jsp
+    - Spring Framework
+       - Maven 
+       - hibernate (다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)
+2.  javascript
+3.  mySQL
 <br><br>
 
 ### 개발환경 
@@ -16,7 +16,8 @@
 <br><br>
 
 ### 기능 
-&emsp;&emsp;회원가입, 로그인, 게시글 작성, 게시글 검색 
+1.  회원가입, 로그인
+2.  게시글 목록, 작성, 수정, 삭제, 검색 
 <br><br>
 
 ### 개발 소요기간 
