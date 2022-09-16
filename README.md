@@ -4,6 +4,7 @@
 1. java
    - jsp
    - Spring Framework
+      - Maven 
 2. javascript
 3. mySQL
 <br><br>
@@ -13,8 +14,8 @@
       - "STS(Spring Tool Suite)" == "Spring tools 3" 
 <br><br>
 
-### DI(dependency Injection)
-&emsp;&emsp;Maven 
+
+&emsp;&emsp;
 <br><br>
 
 ### 회원가입 폼 검증기능 
