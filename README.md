@@ -13,7 +13,7 @@
 <br><br>
 
 ### 프로젝트 환경 
-&emsp;&emsp;"STS(Spring Tool Suite) == Spring tools 3" 
+&emsp;&emsp;"STS(Spring Tool Suite)" == "Spring tools 3" 
 <br><br>
 
 ### DI(dependency Injection)
