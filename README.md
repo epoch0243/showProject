@@ -54,6 +54,8 @@
 
 
 ## 프로젝트를 끝낸 다음 느낀 점 
+<br>
+&emsp;&emsp;작동 방식을 잘 몰라서 기능을 추가할 때 <br>
 &emsp;&emsp;여러가지로 많이 부족한 것을 알았고 <br>
 &emsp;&emsp;(수학, Algorithm, Design Pattern 그리고 여러가지 공학 기술들) <br><br>
 
