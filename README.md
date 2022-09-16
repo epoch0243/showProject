@@ -4,23 +4,23 @@
 &emsp;&emsp;eclipse
 
 ### 프로젝트 환경 
-        "STS(Spring Tool Suite) == Spring tools 3" 
+&emsp;&emsp;"STS(Spring Tool Suite) == Spring tools 3" 
 
 ### DI(dependency Injection)
-        Maven 
+&emsp;&emsp;Maven 
 
 ### 회원가입 폼 검증기능 
-        hibernate 
+&emsp;&emsp;hibernate 
 
 ### 기능 
-        회원가입, 로그인, 게시글 작성, 게시글 검색 
+&emsp;&emsp;회원가입, 로그인, 게시글 작성, 게시글 검색 
     
 ### 개발 소요기간 
-        약 70일 (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
+&emsp;&emsp;약 70일 (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
 
 ## 힘들었던 점 
-        개발할떄 aspect어노테이션과 
-        JdbdcTemplate때문에 시간이 너무 오래걸렸었다.              
+&emsp;&emsp;개발할떄 aspect어노테이션과 
+&emsp;&emsp;JdbdcTemplate때문에 시간이 너무 오래걸렸었다.              
 
 
 ## 오래 걸린 이유 
