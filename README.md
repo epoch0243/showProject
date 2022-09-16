@@ -40,7 +40,7 @@
 
 
 ## 오래 걸린 이유 
-&emsp;&emsp;기본이 부족한 것도 있으나........ <br><br>
+&emsp;&emsp;기본이 많이 부족해서 시행착오가 많았었던 것 같다.<br><br>
 
 &emsp;&emsp;Aspect는 around를 적용시켜 <br>
 &emsp;&emsp;검증된 계정인지 아닌지 <br>
