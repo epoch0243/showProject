@@ -20,14 +20,14 @@
 2. &nbsp; 게시글 목록, 작성, 수정, 삭제, 검색 
 <br><br>
 
-### 개발 소요기간 
+### 프로젝트 소요기간 
 &emsp;&emsp;**약 70일** (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
 <br><br><br><br>
 
 
 ## 힘들었던 점 
 
-&emsp;&emsp;개발할떄 **Aspect** 어노테이션과 <br>
+&emsp;&emsp;**Aspect** 어노테이션과 <br>
 &emsp;&emsp;**JDBCTemplate**때문에 시간이 너무 오래걸렸었다. <br>
 &emsp;&emsp;*(하지만 프로젝트에 Aspect는 사용하지 않았습니다....)* <br>
 <br><br><br><br>
