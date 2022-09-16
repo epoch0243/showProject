@@ -5,6 +5,7 @@
    - jsp
    - Spring Framework
       - Maven 
+      - hibernate (다른 분들이 만드신 쉬워보이는 자료들만 이용하였습니다.)
 2. javascript
 3. mySQL
 <br><br>
@@ -13,16 +14,6 @@
    - eclipse
       - "STS(Spring Tool Suite)" == "Spring tools 3" 
 <br><br>
-
-
-&emsp;&emsp;
-<br><br>
-
-### 회원가입 폼 검증기능 
-&emsp;&emsp;hibernate<br>
-&emsp;&emsp;*(다른 분들이 만드신 쉬워보이는 자료들만 이용하였습니다.)*
-<br><br><br><br>
-
 
 ### 기능 
 &emsp;&emsp;회원가입, 로그인, 게시글 작성, 게시글 검색 
