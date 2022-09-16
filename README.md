@@ -2,8 +2,8 @@
 
 ### 기술 스택 
 1. java
- - jsp
- - Spring Framework
+   - jsp
+   - - Spring Framework
 2. javascript
 3. mySQL
 <br><br>
