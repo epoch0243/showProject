@@ -29,7 +29,7 @@
 
 ## 힘들었던 점 
 
-**&emsp;&emsp;기초가 많이 부족해서 <br>
+**&emsp;&emsp;기초가 매우 부족해서 <br>
 &emsp;&emsp;시행착오가 많았었던 것 같다**<br><br>
 
 &emsp;&emsp;**Aspect**는 **Around**를 적용시켜 <br>
@@ -47,7 +47,8 @@
 &emsp;&emsp;**JDBCTemplate**는 인터넷에서 검색해도 <br>
 &emsp;&emsp;다른 클래스에 연결이 <br>
 &emsp;&emsp;생각대로 잘 안되서 <br>
-&emsp;&emsp;검색도 여러번 하고 코드도 비교해보다가 <br><br>
+&emsp;&emsp;인터넷 검색도 여러 번 하고 책도 보면서 <br>
+&emsp;&emsp;코드를 비교해 보다가 <br><br>
 
 &emsp;&emsp;**@Autowired**를 사용하지 않고 **new**를 이용해서<br>
 &emsp;&emsp;클래스를 선언한 것이 문제였다 <br><br><br><br>
@@ -59,11 +60,11 @@
 &emsp;&emsp;작동 방식을 잘 모르거나 <br><br>
 
 &emsp;&emsp;기능을 추가해서 <br>
-&emsp;&emsp;연결시킬 때 <br><br>
+&emsp;&emsp;연결할 때 <br><br>
 
 &emsp;&emsp;다른 기능들과 중복되지 않는지 <br>
 &emsp;&emsp;생각하다 보니 <br>
-&emsp;&emsp;여러가지로 많이 부족한 것을 알았고 <br>
+&emsp;&emsp;여러 가지로 많이 부족한 것을 알았고 <br>
 &emsp;&emsp;(수학, Algorithm, Design Pattern 그리고 여러가지 공학 기술들) <br><br>
 
 &emsp;&emsp;그래서 <br>
@@ -71,4 +72,4 @@
 &emsp;&emsp;공식 문서를 많이 보고싶지만 <br><br>
 
 &emsp;&emsp;영어도 할 줄 모르기 때문에 <br>
-&emsp;&emsp;공부해야 될 것이 많은 것 같다 <br>
+&emsp;&emsp;공부해야 할 것이 많은 것 같다 <br>
