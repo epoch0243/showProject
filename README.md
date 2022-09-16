@@ -1,7 +1,7 @@
 "# showProject" 
 
 ### 기술 스택 
-1.  java
+1. &nbsp;java
     - jsp
     - Spring Framework
        - Maven 
