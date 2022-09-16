@@ -3,7 +3,8 @@
     - &nbsp; jsp
     - &nbsp; Spring Framework
        - &nbsp; Maven 
-       - &nbsp; hibernate *(다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)*
+         - &nbsp; JDBCTemplate
+         - &nbsp; hibernate *(다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)*
 2. &nbsp; javascript
 3. &nbsp; Amazon EC2 server
     - &nbsp;Linux Ubuntu-Server 
