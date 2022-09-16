@@ -45,7 +45,8 @@
 &emsp;&emsp;만들지 않았고 <br><br>
 
 &emsp;&emsp;**JDBCTemplate**는 인터넷에서 검색해도 <br>
-&emsp;&emsp;다른 클래스에 연결이 생각대로 잘 안되서 <br>
+&emsp;&emsp;다른 클래스에 연결이 <br>
+&emsp;&emsp;생각대로 잘 안되서 <br>
 &emsp;&emsp;검색도 여러번 하고 코드도 비교해보다가 <br><br>
 
 &emsp;&emsp;**@Autowired**를 사용하지 않고 **new**를 이용해서<br>
