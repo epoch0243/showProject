@@ -56,8 +56,13 @@
 ## 프로젝트를 끝낸 다음 느낀 점 
 <br>
 &emsp;&emsp;기능을 추가해야 되는 상황에서 <br>
-&emsp;&emsp;작동 방식을 잘 모를 때 <br><br>
+&emsp;&emsp;작동 방식을 잘 모르거나 <br><br>
 
+&emsp;&emsp;기능을 추가해서 <br>
+&emsp;&emsp;연결시킬 때 <br><br>
+
+&emsp;&emsp;다른 기능들과 중복되지 않는지 <br>
+&emsp;&emsp;생각하다 보니 <br>
 &emsp;&emsp;여러가지로 많이 부족한 것을 알았고 <br>
 &emsp;&emsp;(수학, Algorithm, Design Pattern 그리고 여러가지 공학 기술들) <br><br>
 
