@@ -3,29 +3,41 @@
 ### 개발환경 
 &emsp;&emsp;eclipse
 
+
+
 ### 프로젝트 환경 
 &emsp;&emsp;"STS(Spring Tool Suite) == Spring tools 3" 
 
+
+
 ### DI(dependency Injection)
 &emsp;&emsp;Maven 
+
+
 
 ### 회원가입 폼 검증기능 
 &emsp;&emsp;hibernate 
 (다른 분들이 만드신 쉬워보이는 자료들만 이용하였습니다.)
 
+
+
 ### 기능 
 &emsp;&emsp;회원가입, 로그인, 게시글 작성, 게시글 검색 
-    
+
+
+
 ### 개발 소요기간 
 &emsp;&emsp;약 70일 (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
+
+
 
 ## 힘들었던 점 
 &emsp;&emsp;개발할떄 aspect어노테이션과 
 &emsp;&emsp;JdbdcTemplate때문에 시간이 너무 오래걸렸었다.              
 
 
-## 오래 걸린 이유 
 
+## 오래 걸린 이유 
 기본이 부족한 것도 있으나........ 
 
 Aspect는 around를 적용시켜 검증된 계정인지 세션을 2번 검사시키려고 (before, after) 
