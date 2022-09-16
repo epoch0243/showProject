@@ -44,7 +44,7 @@
 
 
 ## 오래 걸린 이유 
-&emsp;&emsp;기본이 많이 부족해서 시행착오가 많았었던 것 같다.<br><br>
+&emsp;&emsp;기본이 많이 부족해서 시행착오가 많았었던 것 같다<br><br>
 
 &emsp;&emsp;**Aspect**는 **Around**를 적용시켜 <br>
 &emsp;&emsp;검증된 계정인지 아닌지 <br>
@@ -61,7 +61,7 @@
 &emsp;&emsp;검색도 여러번 하고 코드도 비교해보다가 <br><br>
 
 &emsp;&emsp;**@Autowired**를 사용하지 않고 **new**를 이용해서<br>
-&emsp;&emsp;클래스를 선언한 것이 문제였다. <br><br><br><br>
+&emsp;&emsp;클래스를 선언한 것이 문제였다 <br><br><br><br>
 
 
 ## 프로젝트를 끝낸 다음 느낀 점 
