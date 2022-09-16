@@ -1,23 +1,23 @@
 "# showProject" 
 
 ### 기술 스택 
-1. &nbsp;java
-    - jsp
-    - Spring Framework
-       - Maven 
-       - hibernate (다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)
-2.  javascript
-3.  mySQL
+1. &nbsp; java
+    - &nbsp; jsp
+    - &nbsp; Spring Framework
+       - &nbsp; Maven 
+       - &nbsp; hibernate (다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)
+2.  &nbsp; javascript
+3.  &nbsp; mySQL
 <br><br>
 
 ### 개발환경 
-   - eclipse
-      - "STS(Spring Tool Suite)" == "Spring tools 3" 
+   - &nbsp; eclipse
+      - &nbsp; "STS(Spring Tool Suite)" == "Spring tools 3" 
 <br><br>
 
 ### 기능 
-1.  회원가입, 로그인
-2.  게시글 목록, 작성, 수정, 삭제, 검색 
+1. &nbsp; 회원가입, 로그인
+2. &nbsp; 게시글 목록, 작성, 수정, 삭제, 검색 
 <br><br>
 
 ### 개발 소요기간 
