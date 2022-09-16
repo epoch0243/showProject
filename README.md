@@ -54,8 +54,9 @@
 
 &emsp;&emsp;jdbcTemplate는 인터넷에서 검색해도 <br>
 &emsp;&emsp;다른 클래스에 연결이 생각대로 잘 안되서 <br>
-&emsp;&emsp;여러번 확인 하다가 <br>
+&emsp;&emsp;검색도 여러번 하고 코드도 비교해보다가 <br><br>
+
 &emsp;&emsp;xml파일에서 선언한 JDBCTemplate 빈을 <br>
 &emsp;&emsp;스프링 컨테이너에 등록한 것을 불러오는 개념을 익히느라 <br>
-&emsp;&emsp;오래 걸렸었다.<br>
+&emsp;&emsp;오래 걸렸었다.<br><br>
 
