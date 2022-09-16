@@ -61,6 +61,7 @@
 &emsp;&emsp;여러가지로 많이 부족한 것을 알았고 <br>
 &emsp;&emsp;(수학, Algorithm, Design Pattern 그리고 여러가지 공학 기술들) <br><br>
 
+&emsp;&emsp;그래서 <br>
 &emsp;&emsp;책이나 StackOverFlow 또는 example을 모아둔 사이트가 아닌 <br>
 &emsp;&emsp;공식 문서를 많이 보고싶지만 <br><br>
 
