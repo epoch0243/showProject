@@ -1,5 +1,3 @@
-"# showProject" 
-
 ### 기술 스택 
 1. &nbsp; java
     - &nbsp; jsp
