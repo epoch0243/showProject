@@ -1,0 +1,56 @@
+#logo img {
+    width: 100px;
+    height: 25px;    
+    margin-top: 25px;
+    margin-right: 50px;
+    display: block;
+    float: left;
+} 
+
+#logo:hover {
+    cursor:pointer;
+}
+
+i:hover {
+    cursor:pointer;
+}
+
+.navigation {
+    float:left;
+}
+
+.navigation ul {        
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+    color: #000000;
+}
+
+/*
+.navigation a:hover {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+}
+*/
+
+.navigation span:hover {    
+    border-bottom: 2px solid #000000;    
+    padding-bottom: 5px;        
+}
+
+.navigation li {    
+    float: left;
+}
+
+.navigation li a {    
+    padding: 16px;
+    display: block;    
+}
+
+#headerRegeon {	
+	margin-right: 0;
+}

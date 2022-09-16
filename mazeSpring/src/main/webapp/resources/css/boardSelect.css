@@ -1,0 +1,61 @@
+#content {
+	
+}
+
+
+
+#selectBoard {
+	display: flex;
+	margin-left: 35%;
+	margin-top: 5%;
+}
+
+#selectBoard h3 {
+	display : block;
+	text-align: center;
+}
+
+table, td {
+	
+}
+
+table {
+	float:left;
+	margin-top : 5%;	
+	height : 400px;
+    width : 500px;
+    
+}
+
+#number {
+	width : 150px;
+}
+
+#textContent {
+	width: 300px;
+	height: 100px;
+	padding : 5%;
+	vertical-align: top;
+	
+
+}
+
+#title {
+	
+}
+
+#writer {
+	float:right;	 
+}
+
+#attachment {
+	width : 150px;
+}
+
+#buttons {
+	display: float;
+}
+
+#createDate {
+	width : 200px;
+}

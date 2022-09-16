@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+#boardSearchList {
+	
+	width: 50%;
+	height: 50%;
+	margin-left: 20%;
+}
+
+.divTable {
+	margin-top : 2%;
+}
+
+#tableColumn {
+    border-bottom: 1px solid gray;
+}
+
+#tableColumn .divTd {
+    margin-left: 10%;
+}
+
+
+#tableRows .divTr {
+	padding-top: 15px;
+}
+
+#tableRows .divTd {
+    margin-left: 10%;
+}
+
+#tableRows .divTr:hover {
+	background-color: rgb(210, 210, 210);
+}
+
+.divTable {
+	border: 1px solid black;
+}
+
+.divTr {
+	display: flex;
+	height: 30px;
+}
+
+.divTd {
+    width: 500px;
+}
+
+#pages {
+	text-align: center;
+	margin-top : 4%;
+	font-size: 20px;
+}
+
+#pages span {
+	margin-right: 2%;	
+}
+
+#boardNav {
+	display: flex;
+	width: 100%;
+	
+	height : 10%;
+}
+
+#boardSearch {
+	
+}
+
+#boardOption {	
+	float: right;
+	margin-left: 60%;
+}
+
+#boardOption button {	
+	
+}

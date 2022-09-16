@@ -1,0 +1,67 @@
+#contents {
+    display: flex;
+    margin: 10% 8%;
+}
+
+#memberInfoes {
+    
+
+    width: 10%;
+    height: 300px;
+    text-align: none;
+}
+
+#memberInfoes .selectMemberFunction {
+    margin-top: 20%;
+    
+}
+
+#memberInfoes label {
+    cursor: pointer;
+    
+}
+
+#memberBoxes {
+    
+    padding:  5%;
+    width: 25%;
+    margin-left: 20%;       
+    
+}
+
+#memberBoxes h3 {
+	text-align: center;
+}
+
+#memberBoxes button {
+	
+	float : right;
+	margin-top : 20%;
+	margin-right: 10px;
+}
+
+#addMember label {
+	display: block;
+	margin-left: 30%;
+	width: 150px;	
+}
+
+#memberBoxes input {
+	width : 200px;
+    height : 40px;
+    font-size: 20px;  
+    margin-left: 25%;
+    border: 1px solid;
+    border-color: darkgrey;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#memberBoxes input:focus {
+	outline: none;    
+    border-color: darkgrey;
+    box-shadow: 0 0 5px black;
+    -moz-box-shadow: 0 0 5px black;
+    -webkit-box-shadow: 0 0 5px black;
+}
+

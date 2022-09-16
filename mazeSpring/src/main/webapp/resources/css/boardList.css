@@ -1,0 +1,25 @@
+#boardList {
+	width : 400px;
+	text-align: center;
+	border: 1px solid gray;
+}
+
+
+
+#boardList li {
+    list-style: none;
+    
+    width: 300px;
+    padding: 1% 1%;
+    margin-left: 5%;
+}
+
+#boardList li:last-child {
+	border-bottom: none;
+}
+
+#boardList a {    
+    color: black;
+    text-decoration: none;
+}
+

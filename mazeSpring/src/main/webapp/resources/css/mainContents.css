@@ -1,0 +1,106 @@
+#contents {
+    width: auto;
+    height: auto;    
+}
+
+#billBoard {
+    
+    margin: 0 7%;    
+    height: 400px;
+    margin-bottom: 2%;
+}
+
+#picList {
+    position: relative;
+    padding-left: 45%;
+    padding-top: 32%;
+    width: auto;
+    
+    float: left;
+}
+
+.picButton {
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    float: left;
+    border: 1px solid #000;
+    background-color: #666666;
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.picButton:hover {
+    background-color: #000000;
+}
+
+#picPause {
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    
+    border: 1px solid #666;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#picPause img {
+    width: 30px;
+    max-width: auto;
+    max-height: auto;
+}
+
+#billBoard img {
+    position: absolute;
+    max-width: 84%;
+    margin-bottom: 2%;
+    margin-right: 8%;
+}
+
+#posters {
+    margin-top: 10%;
+    display: block;
+    margin-left: 5%;
+    
+}
+
+.poster {
+    /*
+    border: 1px solid #cccccc;
+    */
+    width: 150px;
+    height: 150px;
+    margin: 100px 120px;
+    float: left;
+    align-items: center;
+    text-align: center;
+}
+
+.poster img {    
+    max-width: 100%;
+    max-height: 70%;
+}
+
+
+
+.poster:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #666666;
+}
+
+.poster board {
+	
+}
+
+.board {
+    width: 300px; 
+    height: 300px;
+    
+}
+
+.board:hover {
+    cursor: default;
+    box-shadow: none;
+}
