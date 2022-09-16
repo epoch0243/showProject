@@ -7,9 +7,9 @@
 2.  &nbsp; javascript
 3.  &nbsp; mySQL
 4.  &nbsp; Amazon EC2 server
-           - &nbsp;Linux Ubuntu-Server 
-           - &nbsp;tomcat 9 
-           - &nbsp;mySQL 
+           > &nbsp;Linux Ubuntu-Server 
+           > &nbsp;tomcat 9 
+           > &nbsp;mySQL 
 <br><br>
 
 ### 환경 
