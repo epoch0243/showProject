@@ -35,7 +35,8 @@
 
 ## 힘들었던 점 
 &emsp;&emsp;개발할떄 aspect어노테이션과 <br>
-&emsp;&emsp;JdbdcTemplate때문에 시간이 너무 오래걸렸었다. 
+&emsp;&emsp;JdbdcTemplate때문에 시간이 너무 오래걸렸었다. <br>
+&emsp;&emsp;하지만 프로젝트에 Aspect는 사용하지 않았다.... <br>
 <br><br><br>
 
 
