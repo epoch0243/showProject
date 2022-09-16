@@ -2,43 +2,40 @@
 
 ### 기술 스택 
 &emsp;&emsp; java, jsp, Spring Framework, javascript, mySQL
+<br><br>
 
 ### 개발환경 
 &emsp;&emsp;eclipse
-<br><br><br>
-
+<br><br>
 
 ### 프로젝트 환경 
 &emsp;&emsp;"STS(Spring Tool Suite) == Spring tools 3" 
-<br><br><br>
-
+<br><br>
 
 ### DI(dependency Injection)
 &emsp;&emsp;Maven 
-<br><br><br>
-
+<br><br>
 
 ### 회원가입 폼 검증기능 
 &emsp;&emsp;hibernate<br>
 &emsp;&emsp;(다른 분들이 만드신 쉬워보이는 자료들만 이용하였습니다.) 
-<br><br><br>
+<br><br><br><br>
 
 
 ### 기능 
 &emsp;&emsp;회원가입, 로그인, 게시글 작성, 게시글 검색 
-<br><br><br>
-
+<br><br>
 
 ### 개발 소요기간 
 &emsp;&emsp;약 70일 (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
-<br><br><br>
+<br><br><br><br>
 
 
 ## 힘들었던 점 
 &emsp;&emsp;개발할떄 Aspect어노테이션과 <br>
 &emsp;&emsp;JdbdcTemplate때문에 시간이 너무 오래걸렸었다. <br>
 &emsp;&emsp;하지만 프로젝트에 Aspect는 사용하지 않았다.... <br>
-<br><br><br>
+<br><br><br><br>
 
 
 ## 오래 걸린 이유 
