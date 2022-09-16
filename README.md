@@ -39,7 +39,7 @@
 
 &emsp;&emsp;개발할떄 **Aspect** 어노테이션과 <br>
 &emsp;&emsp;**JDBCTemplate**때문에 시간이 너무 오래걸렸었다. <br>
-&emsp;&emsp;~~하지만 프로젝트에 **Aspect**는 사용하지 않았다.... ~~<br>
+&emsp;&emsp; ~~하지만 프로젝트에 Aspect는 사용하지 않았다....~~ <br>
 <br><br><br><br>
 
 
