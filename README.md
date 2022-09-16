@@ -36,6 +36,7 @@
 &emsp;&emsp;검증된 계정인지 아닌지 <br>
 &emsp;&emsp;검사 하려고 하였으나 <br><br>
 
+&emsp;&emsp;**Aspect**가 없어도 <br>
 &emsp;&emsp;__@Repository(Data Access Obejct)__ 에서<br>
 &emsp;&emsp;처리하니까 <br><br>
 
