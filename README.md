@@ -1,11 +1,9 @@
 "# showProject" 
 
 ### 기술 스택 
--java
--jsp
--Spring Framework
--javascript
--mySQL
+- java, jsp, Spring Framework
+- javascript
+- mySQL
 <br><br>
 
 ### 개발환경 
