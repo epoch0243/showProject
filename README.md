@@ -5,7 +5,7 @@
     - &nbsp; jsp
     - &nbsp; Spring Framework
        - &nbsp; Maven 
-       - &nbsp; hibernate (다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)
+       - &nbsp; hibernate *(다른 분들이 만드신 쉬워보이는 자료를 이용하였습니다.)*
 2.  &nbsp; javascript
 3.  &nbsp; mySQL
 <br><br>
@@ -26,15 +26,8 @@
 
 
 ## 힘들었던 점 
-
-&emsp;&emsp;**Aspect** 어노테이션과 <br>
-&emsp;&emsp;**JDBCTemplate**때문에 시간이 너무 오래걸렸었다. <br>
-&emsp;&emsp;*(하지만 프로젝트에 Aspect는 사용하지 않았습니다....)* <br>
-<br><br><br><br>
-
-
-## 오래 걸린 이유 
-&emsp;&emsp;기본이 많이 부족해서 시행착오가 많았었던 것 같다<br><br>
+&emsp;&emsp;기본이 많이 부족해서 <br>
+&emsp;&emsp;시행착오가 많았었던 것 같다<br><br>
 
 &emsp;&emsp;**Aspect**는 **Around**를 적용시켜 <br>
 &emsp;&emsp;검증된 계정인지 아닌지 <br>
