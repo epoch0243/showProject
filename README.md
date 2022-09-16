@@ -9,8 +9,9 @@
 <br><br>
 
 ### 환경 
-   - &nbsp; eclipse
-      - &nbsp; "STS(Spring Tool Suite)" == "Spring tools 3" 
+- windows 10
+  - eclipse
+    - &nbsp; "STS(Spring Tool Suite)" == "Spring tools 3" 
 <br><br>
 
 ### 기능 
