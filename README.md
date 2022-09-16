@@ -74,4 +74,4 @@
 &emsp;&emsp;그리고 프로그래밍이 다른 분야와 <br>
 &emsp;&emsp;조화를 잘 이루어야 된다고 생각하지만 <br><br>
 &emsp;&emsp;잘 아는 분야가 딱히 없으니 <br>
-&emsp;&emsp;고민만 많아진 것 같다 <br>
+&emsp;&emsp;알면 알 수록 미래가 어두운 것 같다 <br>
