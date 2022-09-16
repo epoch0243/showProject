@@ -26,7 +26,7 @@
 
 
 ## 힘들었던 점 
-&emsp;&emsp;기본이 많이 부족해서 <br>
+&emsp;&emsp;기초가 많이 부족해서 <br>
 &emsp;&emsp;시행착오가 많았었던 것 같다<br><br>
 
 &emsp;&emsp;**Aspect**는 **Around**를 적용시켜 <br>
