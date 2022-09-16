@@ -9,8 +9,8 @@
 <br><br>
 
 ### 개발환경 
-   eclipse
-   - "STS(Spring Tool Suite)" == "Spring tools 3" 
+   - eclipse
+      - "STS(Spring Tool Suite)" == "Spring tools 3" 
 <br><br>
 
 ### DI(dependency Injection)
