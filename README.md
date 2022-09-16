@@ -31,36 +31,36 @@
 <br><br>
 
 ### 개발 소요기간 
-&emsp;&emsp;약 70일 (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
+&emsp;&emsp;**약 70일** (2022-05-01 ~ 2022-07-10) 이후 sql exception 기능 추가 
 <br><br><br><br>
 
 
 ## 힘들었던 점 
 
-&emsp;&emsp;개발할떄 Aspect어노테이션과 <br>
-&emsp;&emsp;JdbdcTemplate때문에 시간이 너무 오래걸렸었다. <br>
-&emsp;&emsp;하지만 프로젝트에 Aspect는 사용하지 않았다.... <br>
+&emsp;&emsp;개발할떄 **Aspect** 어노테이션과 <br>
+&emsp;&emsp;**JDBCTemplate**때문에 시간이 너무 오래걸렸었다. <br>
+&emsp;&emsp;하지만 프로젝트에 **Aspect**는 사용하지 않았다.... <br>
 <br><br><br><br>
 
 
 ## 오래 걸린 이유 
 &emsp;&emsp;기본이 많이 부족해서 시행착오가 많았었던 것 같다.<br><br>
 
-&emsp;&emsp;Aspect는 Around를 적용시켜 <br>
+&emsp;&emsp;**Aspect**는 **Around**를 적용시켜 <br>
 &emsp;&emsp;검증된 계정인지 아닌지 <br>
 &emsp;&emsp;검사 할 목적으로(Before, After, Around) <br>
 &emsp;&emsp;적용하려고 하였으나 <br><br>
 
-&emsp;&emsp;sql문을 수행하는 @Repository(Data Access Obejct)에서<br>
+&emsp;&emsp;sql문을 수행하는 **@Repository(Data Access Obejct) **에서<br>
 &emsp;&emsp;처리하도록 하면 <br>
 &emsp;&emsp;세션을 따로 검사시키는 일을 안해도 되어서 <br>
 &emsp;&emsp;만들지 않았고 <br><br>
 
-&emsp;&emsp;JDBCTemplate는 인터넷에서 검색해도 <br>
+&emsp;&emsp;**JDBCTemplate**는 인터넷에서 검색해도 <br>
 &emsp;&emsp;다른 클래스에 연결이 생각대로 잘 안되서 <br>
 &emsp;&emsp;검색도 여러번 하고 코드도 비교해보다가 <br><br>
 
-&emsp;&emsp;@Autowired를 사용하지 않고 new를 이용해서<br>
+&emsp;&emsp;**@Autowired**를 사용하지 않고 **new**를 이용해서<br>
 &emsp;&emsp;클래스를 선언한 것이 문제였다. <br><br><br><br>
 
 
