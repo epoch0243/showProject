@@ -65,3 +65,19 @@
     -webkit-box-shadow: 0 0 5px black;
 }
 
+@font-face {
+    font-family:'dotsfont';
+    src:url('dotsfont.eot');
+    src:url('dotsfont.eot?#iefix')  format('embedded-opentype'),
+        url('dotsfont.svg#font')    format('svg'),
+        url('dotsfont.woff')        format('woff'),
+        url('dotsfont.ttf')         format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+#memberBoxes .springPassword {
+  -webkit-text-security:disc;
+	font-family:dotsfont;
+}
+

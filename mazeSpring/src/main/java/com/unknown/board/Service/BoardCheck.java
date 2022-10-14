@@ -68,11 +68,11 @@ public class BoardCheck {
 	public boolean addFormCheck(BoardVO board) {
 		
 		return board.getTitle() != null && 
-				 board.getTitle() != "" && 
-				 board.getContent() != null && 
-				 board.getContent() != "" && 
+				 board.getTitle() != "" && board.getTitle().length() > 0 &&
+				 board.getContent() != null &&
+				 board.getContent() != "" && board.getContent().length() > 0 && 
 				 board.getPassword() != null && 
-				 board.getPassword() != "";
+				 board.getPassword() != "" &&  board.getPassword().length() > 0;
 		
 	}
 	
@@ -80,9 +80,9 @@ public class BoardCheck {
 			BoardVO board, HttpSession session) {
 		
 		return board.getTitle() != null && 
-				 board.getTitle() != "" && 
+				 board.getTitle() != "" && board.getTitle().length() > 0 &&
 				 board.getContent() != null && 
-				 board.getContent() != "" && 
+				 board.getContent() != "" && board.getContent().length() > 0 &&
 				 session.getAttribute("loginMember") != null;
 	}
 
@@ -120,6 +120,16 @@ public class BoardCheck {
 		}
 		
 		return false;
+	}
+	
+	public Boolean getPasswordInput(BoardVO board) {
+		if (board.getPassword() != null && board.getPassword().length() > 0 && 
+				 board.getPasswordConfirm() != null && board.getPasswordConfirm().length() > 0) {
+			
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	public Boolean getBoardConfirm() {

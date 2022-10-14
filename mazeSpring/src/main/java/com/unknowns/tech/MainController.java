@@ -1,5 +1,7 @@
 package com.unknowns.tech;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,8 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MainController {
 	
 	@RequestMapping("main/main")
-	public String requestMain(Model model) {
-		
+	public String requestMain(Model model, HttpSession session) {
 		
 		return "main/main";
 	}

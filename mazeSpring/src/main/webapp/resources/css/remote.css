@@ -1,0 +1,20 @@
+#remote {
+
+    width: 15%;
+    margin-left: 75%;
+    margin-top: 0;
+    border: 2px solid grey;
+    border-radius: 1%;
+    position: fixed;
+}
+
+#remote li {
+    font-size: 25px;
+    
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+#remote li:hover {
+    background-color: darkgrey;
+}

@@ -12,6 +12,7 @@
 <P>data from mysql database: ${data}.</P>
 <p id="show"></p>
 <script src="resources/js/testHome.js"></script>
+
 <c:redirect url="main/main" />
 </body>
 </html>
