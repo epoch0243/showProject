@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-                                                                                        	
+                                                                                                            	
+    
+    
+    
+    
+    
     
     
     
@@ -22,30 +27,39 @@
     
     
     <wb-module deploy-name="tech-1.0.0-BUILD-SNAPSHOT">
-                        
-        
+                
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                        
-        
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-                        
-        
-        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                        
-        
-        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF"/>
-                        
-        
-        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views"/>
-                        
-        
-        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/board"/>
-                        
-        
-        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/member"/>
                 
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                                                                                                                                                                                		
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/resources"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/resources/css"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/about"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/board"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/main"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/member"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/template"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp/WEB-INF/views/showContent"/>
+                                                                                                                                                                                                                        		
+        
+        
+        
+        
+        
         
         
         
@@ -68,8 +82,18 @@
         
         
         <property name="java-output-path" value="target/classes"/>
+                                                
+        
+        
+        
+        
         <property name="context-root" value="tech"/>
-                                                                                                                                                                                	
+                                                                                                                                                                                                                        	
+    
+    
+    
+    
+    
     
     
     
@@ -92,7 +116,12 @@
     
     
     </wb-module>
-                                                                                        
+                                                                                                            
+
+
+
+
+
 
 
 

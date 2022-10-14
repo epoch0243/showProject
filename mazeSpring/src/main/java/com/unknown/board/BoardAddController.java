@@ -47,7 +47,6 @@ public class BoardAddController {
 		
 		fileUpload.fileUpload(board);
 		
-		
 		return toMove;
 	}
 }

@@ -21,11 +21,6 @@ public class TestMain {
 		AnnotationConfigApplicationContext ctx = 
 				new AnnotationConfigApplicationContext(AppCtx.class);
 		
-		Babo babo = ctx.getBean("babo", Babo.class);
-		
-		babo.baboPrint();
-		
-		
 		NumberVO numberVO = ctx.getBean("numberVO", NumberVO.class);
 		NumberRepository numberService = ctx.getBean("numberService", NumberRepository.class);
 		
@@ -46,8 +41,7 @@ public class TestMain {
 	    }
 	    
 	    // String key = "Bar12345Bar12345Bar12345Bar12345";
-	    String key = "";
-	    
+	    String key = "";	    
 	    String id = "kdfkla";
 	    
 		for (int i = 0; i < 24; i++) {
@@ -70,6 +64,21 @@ public class TestMain {
         */
 		
 		System.out.println((22 / 11 ) * 10 + 1);
+		
+		String msg = "ppr2020{ebggbeebggbeebggbe}";
+		int shift = -13;
+	    String s = "";
+	    
+	    int len = msg.length();
+	    for(int x = 0; x < len; x++){
+	        char c = (char)(msg.charAt(x) + shift);
+	        if (c > 'z')
+	            s += (char)(msg.charAt(x) + (26-shift));
+	        else
+	            s += (char)(msg.charAt(x) + shift);
+	    }
+	    	    
+	    System.out.println(s);
 		
 	}
 	

@@ -28,6 +28,7 @@ public class BoardAddService {
 			Model model, 
 			BoardVO board, HttpSession session) {
 		
+		
 		if (boardCheck.addFormCheck(board)) {
 			
 			boardRepository.addBoard(board);
@@ -63,12 +64,9 @@ public class BoardAddService {
 			boardCheck.setBoardConfirm(true);
 			
 			return "board/boardAdd";
-		}
-		
-		
-		
+		}		
 		model.addAttribute("msg", "글이 등록 되었습니다");
 		
-		return "forward:boardList";
+		return "redirect:../board/boardList";
 	}
 }

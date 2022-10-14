@@ -39,7 +39,7 @@
 						
 						<label>제목</label><form:input cssClass="springForm"  path="title"/><br/>
 						<label>글쓴이</label><form:input cssClass="springForm"  path="writer"/><br/>
-						<label>비밀번호</label><form:input cssClass="springForm"  path="password"/><br/>
+						<label>비밀번호</label><form:password cssClass="springForm" showPassword="true" path="password"/><br/>
 						<label>내용</label><form:textarea rows="25" cols="50" path="content" style="width:400px; height:400px;"/>	<br/>			
 						<label>첨부파일</label><input class="file"  type="file" name="uploadFile" multiple/><br/>
 						<button type="submit">글 작성</button><br/>		

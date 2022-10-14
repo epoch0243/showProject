@@ -7,11 +7,10 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-
+<meta name="robots" content="noindex" />
 <link rel="stylesheet" href="../resources/css/mainContents.css">
-
+<link rel="stylesheet" href="../resources/css/template.css">
 </head>
-<body>
 <body>
         
         <div id="wrapper">
@@ -35,9 +34,10 @@
                 
                 
 				<div id="posters">
-                    <div class="poster"><img src="../resources/image/ubuntuLogo.jpg">could skill</div>
-                    <div class="poster"><img src="../resources/image/java.png">process and my think</div>
-                    <div class="poster"><img src="../resources/image/42341234Rsdfsdvzcx5jy.jpg">hobby and Interest</div>
+					
+                    <a href="../codeReview/content01"><div class="poster"><img src="../resources/image/ubuntuLogo.jpg">Linux Ubuntu</div></a>
+                    <a href="../codeReview/springSet"><div class="poster"><img src="../resources/image/java.png"><br>Code</div></a>
+                    <a href="../board/boardSearch"><div class="poster"><img src="../resources/image/42341234Rsdfsdvzcx5jy.jpg">Board List with Search</div></a>
                     <div class="poster board" ><div id="loadBoard"></div></div>
                 </div>
 
@@ -49,6 +49,5 @@
         
         <script src="../resources/js/navigation.js"></script>
         <script type="text/javascript" src="../resources/js/boardList.js"></script>
-    </body>
 </body>
 </html>

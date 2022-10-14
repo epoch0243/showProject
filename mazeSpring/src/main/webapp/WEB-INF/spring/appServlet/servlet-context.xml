@@ -13,10 +13,8 @@
 	<!-- DispatcherServlet Context: defines this servlet's request-processing infrastructure -->
 	
 	<!-- Enables the Spring MVC @Controller programming model -->
-	<annotation-driven />	
-	<!-- 
-	<context:annotation-config />
-	-->
+	<annotation-driven />
+	
 	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
 	<resources mapping="/resources/**" location="/resources/" />
 
@@ -33,10 +31,12 @@
 	<context:component-scan base-package="com.unknown.member"/>	
 	<context:component-scan base-package="com.unknown.board"/>
 	<context:component-scan base-package="com.unknown.file"/>
-	<context:component-scan base-package="com.unknown.exception"/>
 	<context:component-scan base-package="com.fileUpload.test"/>
 	<context:component-scan base-package="com.fileDownLoad.test"/>
 	
+	<context:component-scan base-package="com.unknown.showContent"/>
+	<context:component-scan base-package="com.unknown.about"/>
+	<context:component-scan base-package="com.unknown.exception"/>	
 	
 	
 </beans:beans>

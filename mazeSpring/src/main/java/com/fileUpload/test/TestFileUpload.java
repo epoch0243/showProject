@@ -58,7 +58,7 @@ public class TestFileUpload {
 			if(uploadFile != null && uploadFile.length >= 0) {
 				String fileName = uploadFile[i].getOriginalFilename();
 				
-				System.out.println(fileName);
+				
 				
 				String filePath = System.getProperty("user.home") + "/FileUpload/";
 				File fileTest = new File(filePath + fileName);
@@ -72,10 +72,10 @@ public class TestFileUpload {
 								fileName.substring(0, fileName.lastIndexOf(".")) + 
 								"(" + count + ")" + 
 								fileName.substring(fileName.lastIndexOf(".")));
-						System.out.println(fileTest.isFile());
+						
 					} while(fileTest.isFile());
 					
-					uploadFile[i].transferTo(fileTest);					
+					uploadFile[i].transferTo(fileTest);	
 				} else {
 					
 					uploadFile[i].transferTo(fileTest);

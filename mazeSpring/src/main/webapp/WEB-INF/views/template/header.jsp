@@ -6,10 +6,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="robots" content="noindex" />
 <title>Insert title here</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="../resources/css/navigation.css">
 <link rel="stylesheet" href="../resources/css/template.css">
+<meta name="robots" content="noindex" />
 </head>
 <body>
 	<div id="headerArea">
@@ -23,8 +25,9 @@
 	        <ul>
 	            <li><a href="../"><span>Home</span></a></li>
 	            <li><a href="../board/boardSearch"><span>게시판</span></a></li>
-	            <li><a href="#"><span>Contact</span></a></li>
-	            <li><a href="#"><span>About</span></a></li>
+	            <li><a href="../showContent/springSet"><span>코드</span></a></li>
+	            <li><a href="../showContent/takeREST"><span>JS RESTful</span></a></li>
+	            <li><a href="../about/about"><span>About</span></a></li>
 	        </ul>
 	    </div>
 		

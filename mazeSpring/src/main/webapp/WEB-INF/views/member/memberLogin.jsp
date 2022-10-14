@@ -23,16 +23,17 @@
 			    <form:form action="./memberLogin" method="post"
 						modelAttribute="memberInfo">
 					<div id="inputBox">
-						<label>아이디</label><input type="text" name="id"/> <br/>
-						<label>비밀번호</label><input type="password" name="password" /> <br/>	
+						<label>아이디</label><form:input path="id" /> <br/>
+						<label>비밀번호</label><form:password path="password" /> <br/>	
 						<div id="buttons">
 							<button type="submit">로그인</button>
-							<button onclick="window.location='./memberAdd';" style="float:left; margin-left:10%;">
-							회원 가입</button>
+							
 						</div>						
-					</div>				
+					</div>
 				</form:form>
-				
+				<button onclick="window.location='../member/memberAdd';" 
+						 style="float:left; margin-left:10%; margin-top:49.5px;">							
+							회원 가입</button>
 			</div>
 		</div>
 		

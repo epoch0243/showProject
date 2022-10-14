@@ -1,0 +1,19 @@
+#contents {
+    margin-left: 30%;
+}
+
+.divTable {
+    border: 1px solid black;
+    border-radius: 1%;
+    padding: 5%;
+}
+
+.divTr {
+    display: flex;
+    
+}
+
+.divTd {
+    width: 150px;
+    margin-left: 5%;
+}
