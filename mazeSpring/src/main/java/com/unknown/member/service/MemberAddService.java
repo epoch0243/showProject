@@ -32,7 +32,7 @@ public class MemberAddService {
 		
 		} else if(!memberCheck.agreeCheck(member)) {
 			
-			model.addAttribute("agreeMessage", "이용햑관에 동의하셔야 계정을 생성할 수 있습니다.");			
+			model.addAttribute("agreeMessage", "이용약관에 동의하셔야 계정을 생성할 수 있습니다.");			
 		} else if (memberCheck.formCheck(member)) {
 			 
 			 CaesarCipher caesar = new CaesarCipher();
@@ -42,9 +42,8 @@ public class MemberAddService {
 			 
 			 memberRepository.memberAdd(member);
 			 model.addAttribute("msg", "계정이 등록 되었습니다");
-			 
-			 
-			 return "member/memberLogin";
+			 			 
+			 return "redirect:../member/memberLogin";
 		} 
 		
 		 

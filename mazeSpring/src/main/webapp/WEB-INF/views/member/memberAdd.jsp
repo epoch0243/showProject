@@ -31,10 +31,10 @@
 				<span id="nameMessage" class="error">${nameMessage }</span> <br/>
 				<form:errors path="name" cssClass="error"/> <br/>
 				
-				<label>비밀번호</label><form:input cssClass="springForm" path="password" onchange="this.form.submit()" /><br/> 
+				<label>비밀번호</label><form:password cssClass="springForm" showPassword="true" path="password" onchange="this.form.submit()" /><br/> 
 				<form:errors path="password" cssClass="error"/> <br/>
 				<label>비밀번호 확인</label>
-				<form:input class="inputBox" cssClass="springForm" path="confirmPassword" onchange="this.form.submit()" /> <br/>
+				<form:password class="inputBox" cssClass="springForm" showPassword="true" path="confirmPassword" onchange="this.form.submit()" /> <br/>
 				<form:errors htmlEscape="false" cssClass="error"/><br/>
 			 
 				<label>가입 동의</label><form:checkbox cssClass="agreeBox" path="agree"/><br/>

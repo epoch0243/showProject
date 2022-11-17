@@ -20,10 +20,11 @@ public class MemberLoginController {
 	
 	@RequestMapping("member/memberLogin")
 	public String login(
-			@ModelAttribute("memberInfo") MemberVO member, 
-			Model model, HttpSession session) {
+			Model model, 
+			 @ModelAttribute("memberInfo") MemberVO member, 
+			 HttpSession session) {
 		
-		String toMove = loginService.login(member, session);
+		String toMove = loginService.login(model, member, session);
 		
 		return toMove;
 	}

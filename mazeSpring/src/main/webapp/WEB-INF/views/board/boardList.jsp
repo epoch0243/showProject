@@ -17,7 +17,7 @@
 		<c:forEach items="${boardList}" var="value" >			
 				<a href="../board/boardSelect?page=${boardInfo.getPage()}&boardNum=${value.boardNum}">
 				<li>${value.boardNum } | ${value.writer } | ${value.title } | ${value.date }</li>
-				</a>			
+				</a>
 		</c:forEach>
 		</ul>
 	</div>

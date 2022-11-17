@@ -2,6 +2,7 @@ package com.unknown.file;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -21,23 +22,35 @@ public class FileUpload {
 		
 		board.setBoardNum(boardRepository.maxBoardNum());
 		
+		String os = System.getProperty("os.name").toLowerCase();
 		MultipartFile[] uploadFile = board.getUploadFile();
 		String boardFolder = board.getBoardNum() + "_board/";
-		String filePath = System.getProperty("user.home") ;
 		
-		File boardMaker = new File(filePath + "/FileUpload/" + boardFolder);
+		String filePath = "";
+		
+		if (os.indexOf("linux") >= 0) {
+			
+			filePath = "/home/ubuntu" + "/FileUpload/";
+		} else {
+			
+			filePath = System.getProperty("user.home") + "/FileUpload/";			
+		}
+		String boardPath = filePath + boardFolder;
+		
+		File boardMaker = new File(boardPath);
+		Files.createDirectory(boardMaker.toPath());
 		
 		
-		if (!boardMaker.mkdirs() &&
-				 board.getUploadFile() != null && 
-				 board.getUploadFile().length <= 0) {
+		
+		if (board.getUploadFile() != null && 
+				 board.getUploadFile().length > 0) {
 			for (int i = 0; i < uploadFile.length; i++) {
 				
 				// System.out.println(session.getServletContext().getRealPath("/"));
 				if(uploadFile != null && uploadFile.length >= 0) {
 					String fileName = uploadFile[i].getOriginalFilename();
 										
-					File fileTest = new File(filePath + fileName);
+					File fileTest = new File(boardPath + fileName);
 						
 					if (fileTest.isFile()) { 
 						
@@ -50,14 +63,13 @@ public class FileUpload {
 									fileName.substring(fileName.lastIndexOf(".")));
 							
 						} while(fileTest.isFile());
-						
+												
 						uploadFile[i].transferTo(fileTest);	
 					} else {
-						
+											
 						uploadFile[i].transferTo(fileTest);
 					}
-									
-				
+					
 				}
 			}
 		}

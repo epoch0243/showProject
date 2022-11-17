@@ -43,7 +43,7 @@
 							<input type="hidden" name="title" value="${boardInfo.title }">
 							<label>제목 : ${boardInfo.title }</label><br/>
 							<label>글쓴이 : ${boardInfo.writer }</label><br/>
-							<label>비밀번호</label><form:input cssClass="springForm"  path="password"/><br/>
+							<label>비밀번호</label><form:password cssClass="springForm" showPassword="true" path="password"/><br/>
 							<label>내용</label>
 							<form:textarea rows="25" cols="50" path="content" style="width:400px; height:400px;"/>	<br/>
 							<button type="submit">글 수정하기</button><br/>							

@@ -45,7 +45,8 @@ public class BoardDeleteService {
 					memberCheck.removeCertificate(testMember);
 				}
 				
-			} else if (boardCheck.passwordConfirm(board)) {
+			} else if (boardCheck.getPasswordInput(board) && 
+					 boardCheck.passwordConfirm(board)) {
 				
 				boardRepository.deleteBoard(board);			
 				
